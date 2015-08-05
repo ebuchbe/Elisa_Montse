@@ -1,5 +1,5 @@
 #install.packages("seqinr") ###this package is important for handling fasta files
-#library("seqinr") ###loading the fasta file
+#library("seqinr") ###loading the fasta file e.g. haemo.fasta
 
 input <- args[1] ##this is the input fasta file
 fasta <- read.fasta(input) ##this reads the input fasta file
